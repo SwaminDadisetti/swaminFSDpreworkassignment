@@ -48,12 +48,16 @@ public class  firstassignment {
 			}		
 	}
 	public void printfibonaci() {
-		int i,num=11,count=1;
-		for(i=1;i<=num;i++)
+		int i,x=0,y=1,z,num=11;
+		System.out.println(+x);
+		System.out.println(+y);
+		for(i=2;i<=num;i++)
 		{
-			count=count*i;
-			}
-		System.out.println("the fibonaci series"+count);
+		z=x+y;
+		System.out.println(+z);
+		x=y;
+		y=z;
+		}
 	}
 
 	public static void main(String[]args){
